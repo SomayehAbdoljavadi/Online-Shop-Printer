@@ -1,0 +1,186 @@
+﻿<%@ Master Language="VB" CodeFile="admin-Mastermaster.master.vb" Inherits="admin_Mastermaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 30px;
+            direction: rtl;
+        }
+        .style2
+        {
+            height: 30px;
+            direction: rtl;
+        }
+        .titr {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 5mm;
+	font-style: italic;
+	color: #000033;
+	font-weight: bold;
+	font-variant: normal;
+}
+
+        .style4
+        {
+            height: 27px;
+        }
+        
+        .style6
+        {
+            height: 30px;
+            direction: rtl;
+            width: 132px;
+        }
+        .style7
+        {
+            height: 30px;
+            width: 132px;
+        }
+
+        .style8
+        {
+            height: 30px;
+            direction: rtl;
+            width: 91px;
+        }
+        .style9
+        {
+            height: 30px;
+            width: 91px;
+        }
+
+        .style11
+        {
+            height: 30px;
+            width: 89px;
+        }
+
+        .style12
+        {
+            height: 30px;
+            direction: rtl;
+            width: 89px;
+        }
+
+        .style13
+        {
+            height: 419px;
+        }
+
+        </style>
+</head>
+<body style="width: 817px">
+    <form id="form1" runat="server">
+    <div>
+        <table style="width:101%; height: 858px;">
+            <tr>
+                <td bgcolor="Silver" colspan="8" rowspan="0" class="style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                        <p style="height: 62px">
+                            
+                            &nbsp;</p>
+                        <p style="height: 62px">
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                  
+                </td>
+            </tr>
+            <tr>
+                <td class="style6" bgcolor="Silver" class="titr" align="center">
+                    <asp:HyperLink ID="HyperLink8" runat="server" 
+                        NavigateUrl="~/contorolpanel.aspx"> کنترل پنل مدیریت</asp:HyperLink>
+                   </td>
+                <td class="style12" bgcolor="Silver" class="titr">
+                    <asp:HyperLink ID="HyperLink7" runat="server" 
+                        NavigateUrl="~/contorolpanel.aspx">کنترل پنل اعضا</asp:HyperLink>
+                    </td>
+                <td class="style2" bgcolor="Silver" class="titr">
+                    <p align="center">
+                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/login.aspx">ورود اعضا</asp:HyperLink>
+                    </p>
+                </td>
+                <td class="style2" bgcolor="Silver" class="titr" align="center">
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/sabtenam.aspx">ثبت نام اعضا</asp:HyperLink>
+                    </td>
+                <td class="style8" bgcolor="Silver" class="titr" align="center">
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/ertebat.aspx">ارتباط با ما</asp:HyperLink>
+                    </td>
+                <td class="style2" bgcolor="Silver" class="titr" align="center">
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/serch.aspx">جستوجو</asp:HyperLink>
+                    </td>
+                <td class="style2" bgcolor="Silver" class="titr" align="center">
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~\gallery\index.htm">گالری عکس</asp:HyperLink></td>
+                <td class="style2" bgcolor="Silver" class="titr" align="center">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/main-page.aspx">صفحه اصلی</asp:HyperLink></td>
+            </tr>
+            <tr>
+                <td class="style13" colspan="8">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        
+                                       <p align="center">
+                                           <br />
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p align="center">
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p style="direction: ltr">
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p align="center">
+                                       </p>
+                                       <p>
+                                       </p>
+                                       <p>
+                                       </p>
+                                       
+                                      
+                        
+                                       </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style7" bgcolor="Silver">
+                    &nbsp;</td>
+                <td class="style11" bgcolor="Silver">
+                    </td>
+                <td class="style1" bgcolor="Silver">
+                    &nbsp;</td>
+                <td class="style1" bgcolor="Silver">
+                    &nbsp;</td>
+                <td class="style9" bgcolor="Silver" align="center">
+                    &nbsp;</td>
+                <td class="style1" bgcolor="Silver" align="center">
+                    &nbsp;</td>
+                <td class="style1" bgcolor="Silver" align="center">
+                    &nbsp;</td>
+                <td class="style1" bgcolor="Silver" align="center">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

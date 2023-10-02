@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" CodeFile="user_MasterPage.master.vb" Inherits="user_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+        	width=200
+        }
+        .style6
+        {
+            height: 85px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 25px">
+        <table style="width:100%;" bgcolor="#CCCCCC">
+            <tr>
+                <td class="style1" colspan="6" align="center">
+                        <asp:Image ID="Image4" runat="server" 
+                            ImageUrl="~/image/main/Tab2_printers_HPAmazingFathersDay2010_812x207_060610.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style1" align="center" bgcolor="#999999">
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/login.aspx">ورود اعضا</asp:HyperLink>
+                </td>
+                <td class="style1" align="center" bgcolor="#999999">
+                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/u_ertebatt.aspx">ارتباط با ما</asp:HyperLink>
+                </td>
+                <td class="style1" align="center" bgcolor="#999999">
+                        <asp:HyperLink ID="HyperLink4" runat="server" 
+                        NavigateUrl="~/u_controlpanel.aspx">کنترل پنل</asp:HyperLink>
+                </td>
+                <td class="style1" align="center" bgcolor="#999999">
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/u_serch.aspx">جستوجو</asp:HyperLink>
+                </td>
+                <td class="style1" align="center" bgcolor="#999999">
+                        <asp:HyperLink ID="HyperLink2" runat="server" 
+                        NavigateUrl="~/gallery/index.htm">گالری</asp:HyperLink>
+                </td>
+                <td class="style1" align="center" bgcolor="#999999">
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/u_main.aspx">صفحه اصلی</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td class="style6" colspan="6">
+                    <br />
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td class="style6" colspan="6">
+                    &nbsp;</td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

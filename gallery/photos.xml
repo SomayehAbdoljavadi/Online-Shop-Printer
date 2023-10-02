@@ -1,0 +1,211 @@
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "6/13/2010">
+	<sitename>Hp_Gallery</sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "1319.jpg"
+width = "350"
+height = "350"
+thumbpath = "1319.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "1534_1200294157_HP-Deskjet-D2460-Printer-(C.jpg"
+width = "350"
+height = "350"
+thumbpath = "1534_1200294157_HP-Deskjet-D2460-Printer-(C.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "17469-SmallPic.jpg"
+width = "269"
+height = "350"
+thumbpath = "17469-SmallPic.jpg"
+thumbwidth = "57"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "17734-SmallPic.jpg"
+width = "350"
+height = "350"
+thumbpath = "17734-SmallPic.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "A716-HP-printer.jpg"
+width = "350"
+height = "346"
+thumbpath = "A716-HP-printer.jpg"
+thumbwidth = "75"
+thumbheight = "74">
+</image>
+
+
+<image
+path = "CB585A_400x400.jpg"
+width = "350"
+height = "350"
+thumbpath = "CB585A_400x400.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "HP Photosmart D7360 Printer-holiday_digphoto-1.jpg"
+width = "350"
+height = "246"
+thumbpath = "HP Photosmart D7360 Printer-holiday_digphoto-1.jpg"
+thumbwidth = "75"
+thumbheight = "52">
+</image>
+
+
+<image
+path = "HP-LaserJet-P1007-Printer_400x400.jpg"
+width = "350"
+height = "350"
+thumbpath = "HP-LaserJet-P1007-Printer_400x400.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "HP-Printer-icon.jpg"
+width = "350"
+height = "350"
+thumbpath = "HP-Printer-icon.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "HP-printer (1).jpg"
+width = "350"
+height = "350"
+thumbpath = "HP-printer (1).jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "P2035_HP_printer.jpg"
+width = "350"
+height = "350"
+thumbpath = "P2035_HP_printer.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "hp printer with presto.jpg"
+width = "350"
+height = "246"
+thumbpath = "hp printer with presto.jpg"
+thumbwidth = "75"
+thumbheight = "52">
+</image>
+
+
+<image
+path = "hp-officejet.jpg"
+width = "350"
+height = "255"
+thumbpath = "hp-officejet.jpg"
+thumbwidth = "75"
+thumbheight = "54">
+</image>
+
+
+<image
+path = "hp-printer.jpg"
+width = "350"
+height = "299"
+thumbpath = "hp-printer.jpg"
+thumbwidth = "75"
+thumbheight = "64">
+</image>
+
+
+<image
+path = "hp_1320.jpg"
+width = "350"
+height = "350"
+thumbpath = "hp_1320.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "hp_1560_printer.jpg"
+width = "350"
+height = "350"
+thumbpath = "hp_1560_printer.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "hp_printer.32534401.jpg"
+width = "334"
+height = "350"
+thumbpath = "hp_printer.32534401.jpg"
+thumbwidth = "71"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "hp_printer320.jpg"
+width = "303"
+height = "350"
+thumbpath = "hp_printer320.jpg"
+thumbwidth = "65"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "images-hp-color-laserjet-cm1312.jpg"
+width = "350"
+height = "350"
+thumbpath = "images-hp-color-laserjet-cm1312.jpg"
+thumbwidth = "75"
+thumbheight = "75">
+</image>
+
+</images>
+</gallery>
